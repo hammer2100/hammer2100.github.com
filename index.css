@@ -1,50 +1,133 @@
-* {
-    font-family: Helvetica;
-}
+body {
+  font-family: 'Cantarell', sans-serif;
+  font-size: 16px;
+  }
 
 h1 {
-    font-size: 100px;
-    font-weight: bold;
-    text-align: center;
-    color: khaki;
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  font-weight: 900;
 }
 
 h2 {
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
+  font-family: 'Rosario', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
 }
 
 h3 {
-    font-size: 18px;
+  font-family: 'Rosario', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
 }
 
-h4 {
-    font-size: 16px;
+div.firstline {
+  margin: 10px;
 }
 
-img {
-    width: 150px 
+.container {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px 10px;
+  padding: 10px;
 }
 
-.bluebold {
-    color: blue;
-    font-weight: bold;
+.color-container {
+  text-align: center;
 }
 
-.header {
-    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
-    color: khaki;
+.patch {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(7, 7, 7);
+  color: white;
+  width: 15%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.green {
-    background-color: #0af999;
+.polpin {
+  background-color: #63a191;
 }
 
-.red {
-    background-color: #ef8080;
+.djg {
+  background-color: #001514;
 }
 
-.blue {
-    background-color: #87ceeb;
+.vioblu {
+  background-color: #3b429f;
+}
+
+.percra {
+  background-color: #C4C6E7;
+}
+
+.golcra {
+  background-color: #edcb96;
+}
+
+.railway {
+  font-family: 'Raleway', sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+}
+
+p.expl_rail {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.rosario2 { 
+  font-family: 'Rosario', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.rosario3 { 
+  font-family: 'Rosario', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+p.expl_ros {
+  font-family: 'Rosario', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.cantarell {
+  font-family: 'Cantarell', sans-serif;
+  font-size: 16px;
+}
+
+p.expl_can {
+  font-family: 'Cantarell', sans-serif;
+  font-size: 16px;
+}
+
+div.fonts_box{
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  margin: 0px auto;
+}
+
+div.fonts_box h2{
+  text-align: left;
+}
+
+.breadcrumb li{
+  display: inline;
+  margin-right: 4px;
+  margin-left: 0px;
+}
+
+.breadcrumb li+li::before {
+  content: "|  ";
 }
