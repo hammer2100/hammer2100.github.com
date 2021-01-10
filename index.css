@@ -46,9 +46,11 @@ div.firstline {
   background-color: rgb(7, 7, 7);
   color: white;
   width: 15%;
+  height: 125px;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
+  vertical-align: top;
 }
 
 .polpin {
